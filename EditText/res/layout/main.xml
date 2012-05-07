@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+    >
+		<EditText
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:hint="Input String" 
+			android:id="@+id/edittext"
+			android:layout_weight="8"
+		/>
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/button"
+			android:text="OK!" 
+			android:layout_weight="1"
+		/>
+</LinearLayout>
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:id="@+id/textview"
+/>
+<EditText
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:hint="Input String" 
+	android:layout_gravity="right"
+		android:id="@+id/IDedit"
+	/>
+	<EditText
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:hint="Input String" 
+	android:layout_gravity="right"
+		android:id="@+id/PWedit"
+	/>
+<CheckBox
+	android:text="아이디 저장" 
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_gravity="right"
+	android:id="@+id/save"
+/>
+    
+</LinearLayout>
